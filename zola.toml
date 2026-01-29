@@ -1,0 +1,25 @@
+# The URL the site will be built for
+base_url = "https://loop46.com"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = false
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = false
+
+theme = "zola-theme"
+
+title = "Loop 46 - The human loop"
+
+[markdown]
+
+[markdown.highlighting]
+theme = "catppuccin-mocha"
+
+[extra]
+# Put all your custom variables here
+loop_links = [
+  { url = "/justcash", name = "JustCash" },
+  { url = "/blog", name = "Blog" },
+  { url = "/contact", name = "Contact Us" },
+]

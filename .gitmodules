@@ -1,0 +1,3 @@
+[submodule "themes/zola-theme"]
+	path = themes/zola-theme
+	url = git@github.com:loop46/zola-theme.git
